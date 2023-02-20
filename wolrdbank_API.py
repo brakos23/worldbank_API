@@ -5,7 +5,7 @@ conn = pymysql.connect(user='id',
                        password='Root123*',
                        database='worldbank',
                        host='db-world-bank.mysql.database.azure.com',
-                       ssl={'ca': 'C:\\Users\\ray_p\\Downloads\DigiCertGlobalRootCA.crt.pem'})
+                       ssl={'ca': 'DigiCertGlobalRootCA.crt.pem'})
 
 app = Flask(__name__)
 
